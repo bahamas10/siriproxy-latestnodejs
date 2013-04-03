@@ -16,10 +16,15 @@ Add this to `~/.siriproxy/config.yml`
 
 Rebundle and reload
 
+Example
+-------
+
+![siri](http://www.daveeddy.com/static/media/github/siri-node.jpg)
+
 Commands
 --------
 
-`/latest version of node js/i`
+- `/(latest|latest stable) version of node js/i`
 
 Siri will tell you the latest version of Node.js
 
