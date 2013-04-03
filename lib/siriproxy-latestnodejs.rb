@@ -7,9 +7,9 @@ class SiriProxy::Plugin::LatestNodeJS < SiriProxy::Plugin
     url = URI.parse('http://nodejs.org')
     html = Net::HTTP.get(url)
     version = html.match(/>Current Version: ([^<]+)/)[1]
-		humanreadable = version.gsub('.', ' dot ').gsub('v', 'v ')
+    humanreadable = version.gsub('.', ' dot ').gsub('v', 'v ')
     say "The latest stable version of Node.JS is #{version}",
-			spoken: "The latest stable version of Node.js is #{humanreadable}"
+      spoken: "The latest stable version of Node.js is #{humanreadable}"
     request_completed
   end
 end
