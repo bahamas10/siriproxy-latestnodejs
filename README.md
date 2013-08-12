@@ -11,7 +11,7 @@ Add this to `~/.siriproxy/config.yml`
 
 ``` yml
 - name: 'LatestNodeJS'
-  git: 'git://github.com/bahamas10/siriproxy-latestnodejs.git
+  git: 'git://github.com/bahamas10/siriproxy-latestnodejs.git'
 ```
 
 Rebundle and reload
